@@ -19,7 +19,7 @@ chosenLanguage = st.selectbox(
 st.markdown('##')
 st.markdown('##')
 
-searchedWord = st.text_input('Find some words related to...')
+searchedWord = st.text_input('Find some words related to...').lower()
 
 st.markdown('##')
 st.markdown('Results: ')
