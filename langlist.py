@@ -10,7 +10,7 @@ from gensim.models import KeyedVectors
 #web component
 st.markdown("# Lengua.io")
 st.markdown("_Created by Ali Zia (az2741@columbia.edu) and Chris Tengey (cdt50@georgetown.edu)_")
-st.markdown('This website uses NLP/AI to help language learners find new words. You can read an article about it here. (coming soon)')
+st.markdown('This website uses NLP/AI to help language learners find new words. You can read an article about it [here](https://medium.com/hoyalytics/lengua-io-and-an-introduction-to-word2vec-6338ed74f91a)")
 st.markdown('Looking for words similar to one you already know? **Type the word in English and press Enter below.**')
 chosenLanguage = st.selectbox(
     'Pick a language: ',
