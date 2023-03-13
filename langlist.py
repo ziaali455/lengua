@@ -59,7 +59,8 @@ frenchTranslator = Translator(to_lang= "French")
 # enter_box.grid(row=6, column = 1)
 
 
-model = KeyedVectors.load("./word2vec-amazon-cell-accessories-reviews-short.model", mmap='r')
+#model = KeyedVectors.load("./word2vec-amazon-cell-accessories-reviews-short.model", mmap='r')
+model = KeyedVectors.load("./utterances-2sp.model", mmap='r')
 def search():
     # searchedW_var.set("")
     # resultLabel = Label(root, text = "", font = ("arial", 36, "bold"),justify=CENTER)
