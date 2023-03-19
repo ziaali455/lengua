@@ -51,9 +51,6 @@ frenchTranslator = Translator(to_lang= "French")
 #model = KeyedVectors.load("./word2vec-amazon-cell-accessories-reviews-short.model", mmap='r')
 model = KeyedVectors.load("./utterances-2sp.model", mmap='r')
 def search():
-    # searchedW_var.set("")
-    # resultLabel = Label(root, text = "", font = ("arial", 36, "bold"),justify=CENTER)
-    # resultLabel.grid(row = 5, column=3)
     searchedWordEng = englishTranslator.translate(searchedWord)
     just_first = [a for a, b in model.wv.most_similar(searchedWord, topn=25)]
     for x in just_first:
@@ -77,9 +74,4 @@ if searchedWord:
     st.markdown('_Report problems to ziaali455@gmail.com_')
 
 
-
-# btn = Button (root, text = "Search", command=search, bg = "blue", fg = "black", font = ("arial", 14, "bold"))
-# btn.grid(row=6, column=4)
-
-# root.mainloop()
 
