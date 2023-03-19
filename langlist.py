@@ -29,17 +29,6 @@ englishTranslator= Translator(to_lang="english")
 frenchTranslator = Translator(to_lang= "French")
 
 
-#anything related to tkinter or GUI pieces can be deleted if u want. tkinter cant be used on the web.
-# root = tk.Tk()
-# root.title("Lingua.IO")
-# root.geometry("800x400")
-
-# titleLabel = Label(root, text = "🗣 Lingua.IO 🗣", font = ("arial", 36, "bold"),justify=CENTER)
-# titleLabel.grid(row = 1, column = 0)
-
-# label1= Label(root, text = "Let's find some words related to", font = ("arial", 15))
-# label1.grid(row = 6, column = 0)
-
 # searchedW_var=tk.StringVar()
 
 # df = pd.read_json("/Users/alizia/Downloads/reviews_Cell_Phones_and_Accessories_5.json", lines=True)
