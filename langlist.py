@@ -63,11 +63,9 @@ def search():
                 similarWordsFren = frenchTranslator.translate(x)
                 print(similarWordsFren)
                 st.write(similarWordsFren)
-            #print the similarWordsSpan in the GUI here instead of these terminal prints
         except:
             print("Error: Could not generate word")
             st.write('Could not generate word')
-            #print an error in the GUI here
 
 if searchedWord:
     search()
